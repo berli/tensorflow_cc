@@ -302,7 +302,7 @@ int main(int argc, char* argv[])
   // They define where the graph and input data is located, and what kind of
   // input the model expects. If you train your own model, or use something
   // other than inception_v3, then you'll need to update these.
-  string image = "model/grace_hopper.jpg";
+  string image = argv[1];
   string graph = "model/inception_v3_2016_08_28_frozen.pb";
   string labels = "model/imagenet_slim_labels.txt";
   int32 input_width = 299;
