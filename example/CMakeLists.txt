@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
-add_executable(example example.cpp)
+add_executable(example inception.cpp)
 
 # try the shared tensorflow library first
 find_package(TensorflowCC COMPONENTS Shared)
